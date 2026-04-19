@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+
+#You can create a .gitignore file in your repository's root directory to tell Git which files and directories to ignore when you make a commit. To share the ignore rules with other users who clone the repository, commit the .gitignore file into your repository.
