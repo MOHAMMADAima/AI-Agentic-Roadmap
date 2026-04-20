@@ -1,9 +1,9 @@
 # AI Engineer Journey
 
 - 19Avril2026 : `llm_call.py` : appel API LLM avec Groq
-Ressource du jour: https://www.anthropic.com/engineering/building-effective-agents
+Ressource du jour: Sur les cas d'usages des agents IA et les bonnes pratiques des AI engineers
+https://www.anthropic.com/engineering/building-effective-agents
 
 - 20Avril2026 : chatbot avec mémoire
-Ressources du jour : 
-1. Sur la gestion du contexte : https://console.groq.com/docs/conversational-ai
-2. Sur le concept de "context window" : https://console.groq.com/docs/context-window-management
+Ressource du jour :  Sur la mémoire de conversation et le 'context window' https://console.groq.com/docs/text-chat
+
