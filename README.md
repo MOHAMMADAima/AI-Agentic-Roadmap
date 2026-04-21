@@ -5,5 +5,5 @@ Ressource du jour: Sur les cas d'usages des agents IA et les bonnes pratiques de
 https://www.anthropic.com/engineering/building-effective-agents
 
 - 20Avril2026 : chatbot avec mémoire
-Ressource du jour :  Sur la mémoire de conversation et le 'context window' https://console.groq.com/docs/text-chat
+Ressources du jour :  Sur la mémoire de conversation : https://www.ibm.com/fr-fr/think/topics/ai-agent-memory et le 'context window' : https://platform.claude.com/docs/en/build-with-claude/context-windows
 
