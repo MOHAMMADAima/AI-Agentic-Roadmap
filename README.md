@@ -15,3 +15,5 @@ https://www.anthropic.com/engineering/building-effective-agents
 Ressources du jour :  Sur la mémoire de conversation : https://www.ibm.com/fr-fr/think/topics/ai-agent-memory et le 'context window' : https://platform.claude.com/docs/en/build-with-claude/context-windows
 
 >>>>>>> c8431a6e57cdf27d66e3dc7d7e22edd8a7e62e2b
+-26Avril2026 : agent from scratch. Mémoire de conversation + décision d'appel d'outil + gestion du résultat
+Ressources du jour : Sécurité en Python :  https://realpython.com/python-eval-function/#minimizing-the-security-issues-of-eval 

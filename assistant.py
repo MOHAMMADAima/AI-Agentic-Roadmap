@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import os
 import json
 from datetime import datetime
+import ast
 
 load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
@@ -39,11 +40,16 @@ tools = [
 def get_current_time():
     return datetime.now().strftime("%d/%m/%Y à %H:%M")
 
+#`ast` évalue uniquement des expressions mathématiques sans exécuter de code arbitraire.
+# `eval()` exécute n'importe quel code Python. Un utilisateur malveillant peut injecter du code système :`eval("__import__('os').system('rm -rf /')")` = Faille de sécurité critique.
 def calculate(expression):
     try:
-        return str(eval(expression))
+        tree = ast.parse(expression, mode='eval')
+        result = eval(compile(tree, '<string>', 'eval'))
+        return str(result)
     except:
         return "Expression invalide"
+    
 
 def handle_tool_call(tool_name, args):
     if tool_name == "get_current_time":
